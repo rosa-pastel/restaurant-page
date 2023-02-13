@@ -5,6 +5,6 @@ Restaurant page project made for [The Odin Project](https://www.theodinproject.c
 Icons on the contact page are from [freepik](https://www.flaticon.com/authors/freepik) on [flaticon](https://www.flaticon.com/).
 Background photo is from [alvarez](https://www.istockphoto.com/tr/portfolio/alvarez?mediatype=photography) on [iStock](https://www.istockphoto.com/).
 
-Desktop view: ![Desktop view]("./desktop.png)
-Mobile view: ![Mobile view]("./small-screen.png)
-Mobile view with Turkish language option activated: ![Mobile view with Turkish language option activated]("./small-screen-tr")
+Desktop view: ![Desktop view](./desktop.png)
+Mobile view: ![Mobile view](./small-screen.png)
+Mobile view with Turkish language option activated: ![Mobile view with Turkish language option activated](./small-screen-tr.png)
