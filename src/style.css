@@ -25,7 +25,7 @@
   align-items: center;
 }
 #header {
-  width: max(60vw, 450px);
+  width: clamp(450px, 80vw, 1100px);
   height: 80px;
   display: flex;
   justify-content: space-between;
