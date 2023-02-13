@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "rosmatika";
+  src: url(./fonts/RosmatikaRegular-BWA45.ttf) format("truetype");
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("./fonts/MontserratRegular-BWBEl.ttf") format("truetype");
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("./fonts/MontserratBold-DOWZd.ttf") format("truetype");
+  font-weight: bold;
+}
+* {
+  font-family: "montserrat", monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(37, 37, 37);
+}
+#content {
+  background-color: rgb(244, 255, 149);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+#header {
+  width: max(60vw, 450px);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header ul {
+  font-weight: bold;
+  font-size: calc(14px + 0.2vw);
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+#header ul li:hover {
+  cursor: default;
+  position: relative;
+  bottom: 2px;
+}
+#tiny-logo {
+  font-family: "rosmatika";
+  font-size: calc(24px + 0.5vw);
+  padding: 5px 10px 0;
+  border: rgb(37, 37, 37) solid 3px;
+}
+#page {
+  background-size: cover;
+  background-image: url("./background.jpg");
+  height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#homepage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  font-family: "rosmatika";
+  color: rgb(244, 255, 149);
+  font-size: calc(30px + 12vmin);
+  text-shadow: 0 0 10px rgb(37, 37, 37), 1px 1px 5px rgb(37, 37, 37),
+    -1px -1px 5px rgb(37, 37, 37);
+}
+#logo-info {
+  font-size: calc(14px + 1vmin);
+  color: rgb(244, 255, 149);
+  text-shadow: 0 0 10px rgb(37, 37, 37), 1px 1px 3px rgb(37, 37, 37),
+    -1px -1px 3px rgb(37, 37, 37);
+}
+div#contactpage img {
+  width: 30px;
+  height: 30px;
+}
+div#contactpage div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+div#contactpage,
+div#menupage {
+  width: calc(350px + 12vw);
+  height: calc(400px + 12vmax);
+  padding: calc(30px + 2vw);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(244, 255, 149, 0.75);
+  border-radius: 25px;
+  border: 3px rgb(37, 37, 37) solid;
+}
+div#menupage div h1 {
+  font-size: calc(18px + 0.5vmin);
+  font-weight: normal;
+}
+div#contactpage div h1 {
+  font-size: calc(18px + 0.5vmin);
+}
+div#contactpage div h2 {
+  font-size: calc(18px + 0.5vmin);
+  font-weight: normal;
+}
+div#menupage > h1 {
+  text-align: center;
+}
+div#menu-items div {
+  display: flex;
+  justify-content: space-between;
+}
+div#menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
