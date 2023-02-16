@@ -13,7 +13,7 @@ export function makeHomepage() {
   logoInfo.setAttribute("id", "logo-info");
   logoInfo.textContent =
     lang === "TR"
-      ? "yaban mersini turtaları & dahası"
+      ? "yaban mersinli turtalar & dahası"
       : "blueberry pies & others";
 
   homepage.appendChild(logo);
