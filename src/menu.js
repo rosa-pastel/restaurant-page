@@ -84,6 +84,7 @@ export function makeMenuPage() {
   allItems.appendChild(itemContainer);
 
   menuPage.appendChild(allItems);
+  menuPage.classList.add("load");
 
   const page = document.getElementById("page");
   page.appendChild(menuPage);

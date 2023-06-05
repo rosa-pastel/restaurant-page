@@ -30,6 +30,7 @@ export function makeHeader() {
 
   header.appendChild(tinyLogo);
   header.appendChild(list);
+  header.classList.add("loadWithDelay");
 
   const content = document.getElementById("content");
   content.appendChild(header);

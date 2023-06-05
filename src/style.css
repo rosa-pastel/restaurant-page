@@ -11,6 +11,14 @@
   src: url("./fonts/MontserratBold-DOWZd.ttf") format("truetype");
   font-weight: bold;
 }
+@keyframes pageLoad {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   font-family: "montserrat", monospace, sans-serif;
   margin: 0;
@@ -35,6 +43,7 @@
   justify-content: space-between;
   align-items: center;
   padding: calc(10px + 1vmin) 0;
+  opacity: 0;
 }
 #header ul {
   font-weight: bold;
@@ -64,6 +73,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 0;
 }
 #homepage {
   height: 100%;
@@ -130,4 +140,11 @@ div#menu-items {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.load {
+  animation: pageLoad 300ms ease-out forwards;
+}
+
+.loadWithDelay {
+  animation: pageLoad 300ms ease-out 1s forwards;
 }

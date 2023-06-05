@@ -46,6 +46,7 @@ export function makeContactPage() {
     lang === "TR" ? "sabah 10 - akşam 4.30" : "10 a.m. - 4.30 p.m.";
   hours.appendChild(hoursText);
   contactPage.appendChild(hours);
+  contactPage.classList.add("load");
 
   const page = document.getElementById("page");
   page.appendChild(contactPage);

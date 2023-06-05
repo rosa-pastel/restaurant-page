@@ -1,6 +1,3 @@
-import { makeContactPage } from "./contact";
-import { makeMenuPage } from "./menu";
-
 export function makeHomepage() {
   const lang = document.getElementById("lang").textContent;
 
@@ -18,6 +15,7 @@ export function makeHomepage() {
 
   homepage.appendChild(logo);
   homepage.appendChild(logoInfo);
+  homepage.classList.add("load");
 
   const page = document.getElementById("page");
   page.appendChild(homepage);
@@ -25,6 +23,7 @@ export function makeHomepage() {
 export function makePage() {
   const page = document.createElement("div");
   page.setAttribute("id", "page");
+  page.classList.add("loadWithDelay");
   const content = document.getElementById("content");
   content.appendChild(page);
 }
